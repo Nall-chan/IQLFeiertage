@@ -25,5 +25,5 @@
 	"actions":
 	[
 		{ "type": "Button", "label": "Update", "onClick": "IQLFT_Update($id);" }
-	]	
+        ]	
 }
