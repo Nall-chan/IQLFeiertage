@@ -3,7 +3,7 @@
 	[
 		{ "name": "area", "type": "Select", "caption": "Bundesland", 
 			"options": [ 
-				{ "label": "Baden-WÃ¼rttemberg", "value": "BW" }, 
+				{ "label": "Baden-Württemberg", "value": "BW" }, 
 				{ "label": "Bayern", "value": "BY" }, 
 				{ "label": "Berlin", "value": "BE" },
 				{ "label": "Brandenburg", "value": "BB" },
@@ -18,7 +18,7 @@
 				{ "label": "Sachsen", "value": "SN" },
 				{ "label": "Sachsen-Anhalt", "value": "ST" },
 				{ "label": "Schleswig-Holstein", "value": "SH" },
-				{ "label": "ThÃ¼ringen", "value": "TH" }
+				{ "label": "Thüringen", "value": "TH" }
 			]
 		}
 	],
