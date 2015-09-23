@@ -1,7 +1,7 @@
 # IQLFeiertage
 
 Dieses Modul zeigt an, ob es sich heute um einen Feiertag handelt.
-Im Konfigurationsformular muss das Bundesland ausgewählt werden.
+Im Konfigurationsformular muss das Bundesland ausgewÃ¤hlt werden.
 
 **Befehlsreferenz:**
 

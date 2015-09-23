@@ -21,7 +21,7 @@ class IQLFeiertage extends IPSModule
         $this->RegisterVariableString("Holiday", "Feiertag");
         // 15 Minuten Timer
         $this->RegisterTimer("UpdateIQLFeiertage", 15*60, 'IQLFT_Update($_IPS[\'TARGET\']);');        
-        // Nach übernahme der Einstellungen oder IPS-Neustart einmal Update durchführen.
+        // Nach Ã¼bernahme der Einstellungen oder IPS-Neustart einmal Update durchfÃ¼hren.
         $this->Update();
         //$this->RegisterEventCyclic("UpdateTimer", "Automatische aktualisierung", 15);
     }
@@ -59,7 +59,7 @@ class IQLFeiertage extends IPSModule
         }
         elseif ($datum[1] . $datum[2] == '0106' && ($bundesland == 'BW' || $bundesland == 'BY' || $bundesland == 'ST'))
         {
-            $status = 'Heilige Drei Könige';
+            $status = 'Heilige Drei KÃ¶nige';
         }
         elseif ($datum[1] . $datum[2] == date("md", mktime(0, 0, 0, $easter_m, $easter_d - 2, $datum[0])))
         {
@@ -95,7 +95,7 @@ class IQLFeiertage extends IPSModule
         }
         elseif ($datum[1] . $datum[2] == '0815' && ($bundesland == 'SL' || $bundesland == 'BY'))
         {
-            $status = 'Mariä Himmelfahrt';
+            $status = 'MariÃ¤ Himmelfahrt';
         }
         elseif ($datum[1] . $datum[2] == '1003')
         {
@@ -111,7 +111,7 @@ class IQLFeiertage extends IPSModule
         }
         elseif ($datum[1] . $datum[2] == strtotime("-11 days", strtotime("1 sunday", mktime(0, 0, 0, 11, 26, $datum[0]))) && $bundesland == 'SN')
         {
-            $status = 'Buß- und Bettag';
+            $status = 'BuÃŸ- und Bettag';
         }
         elseif ($datum[1] . $datum[2] == '1224')
         {
